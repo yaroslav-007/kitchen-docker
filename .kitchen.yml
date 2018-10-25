@@ -1,0 +1,19 @@
+---
+driver:
+  name: docker
+  #provision_command: systemctl enable nginx
+provisioner:
+  name: shell
+
+
+verifier:
+  name: inspec
+
+platforms:
+- name: ubuntu
+  driver_config:
+    image: vatman/nginx:0.1
+    platform: ubuntu
+
+suites:
+  - name: default
