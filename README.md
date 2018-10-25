@@ -28,5 +28,5 @@ In the terminal run the following commands:
     cd kitchen-docker
     packer build template.json
     bundle install 
-    kitchen list
-    kitchen test
+    bundle exec kitchen list
+    bundle exec kitchen test
