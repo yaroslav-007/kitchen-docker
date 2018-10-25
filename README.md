@@ -29,4 +29,4 @@ In the terminal run the following commands:
     packer build template.json
     bundle install 
     kitchen list
-    kitchen testgit status
+    kitchen test
