@@ -1,7 +1,6 @@
 ---
 driver:
   name: docker
-  #provision_command: systemctl enable nginx
 provisioner:
   name: shell
 
