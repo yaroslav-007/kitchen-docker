@@ -26,7 +26,7 @@ all pre-requirements to make this work here:
 
 2. Run the following commands:
 ```
-    git clone git@github.com:yaroslav-007/kitchen-docker.git
+    git clone https://github.com/yaroslav-007/kitchen-docker.git
     cd kitchen-docker
     vagrant up
     vagrant ssh
