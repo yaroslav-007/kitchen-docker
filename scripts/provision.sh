@@ -5,6 +5,11 @@ which curl docker make ruby || {
   sudo apt-get install -y curl docker.io make ruby rbenv ruby-dev ruby-bundler gcc g++
   sudo usermod -a -G docker ubuntu
   sudo gem install rubyzip 
+  pushd /vagrant
+  sudo gem install bundler 
+  bundler install
+  popd
+  sudo apt-get clean
 }
 
 which packer || {
